@@ -57,3 +57,26 @@ main h2 {
   border-radius: 8px;
   align-items: start;
 }
+nav {
+  margin-top: 1.2rem;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 0.8rem;
+  padding-bottom: 0.2rem;
+  border-bottom: 2px solid transparent;
+  transition: border-color 0.2s;
+}
+
+nav a:hover {
+  border-bottom-color: white;
+}
+
+footer {
+  text-align: center;
+  padding: 2rem 1rem;
+  color: var(--green-dark);
+  font-size: 0.9rem;
+}
